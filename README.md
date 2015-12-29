@@ -2,7 +2,7 @@
 A super simple Grunt with Sass starter example with JSHint, livereload and Source Maps ready to roll
 
 ### Requirements ##
-*   Install [Node.js](https://nodejs.org/en/) on your computer
+*   Install [Ruby](https://www.ruby-lang.org/en/) & [Node.js](https://nodejs.org/en/) on your computer
 *   Install Grunt in command line via `npm install -g grunt-cli`
 *   Install [Sass](http://sass-lang.com/install)
 

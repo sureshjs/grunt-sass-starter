@@ -1,7 +1,7 @@
 {
   "name": "gruntsassmaster",
   "version": "1.0.0",
-  "description": "A super simple Grunt Sass starter example",
+  "description": "A super simple Grunt starter example template with Sass",
   "author": "Andy Crone <andy@andycrone.com>",
   "homepage": "https://andycrone.com",
   "repository": {
@@ -17,7 +17,6 @@
   ],
   "devDependencies": {
     "grunt": "0.4.5",
-    "grunt-contrib-clean": "0.7.0",
     "grunt-contrib-jshint": "0.11.3",
     "grunt-contrib-uglify": "0.11.0",
     "grunt-contrib-watch": "0.6.1",

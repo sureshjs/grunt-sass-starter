@@ -60,17 +60,10 @@ module.exports = function(grunt) {
           '*.html'
         ]
       }
-    },
-    clean: {
-      dist: [
-        'assets/build/app.min.css',
-        'assets/build/app.min.js'
-      ]
     }
   });
 
   // Load tasks
-  grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
@@ -78,7 +71,6 @@ module.exports = function(grunt) {
 
   // Register tasks
   grunt.registerTask('default', [
-    'clean',
     'sass',
     'uglify'
   ]);
