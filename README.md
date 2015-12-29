@@ -2,27 +2,27 @@
 A super simple Grunt with Sass starter example with JSHint, livereload and Source Maps ready to roll
 
 ## Requirements ##
-1. Install [Node.js](https://nodejs.org/en/) on your computer
-2. Install Grunt in command line via `npm install -g grunt-cli`
-3. Install [Sass](http://sass-lang.com/install)
+*   Install [Node.js](https://nodejs.org/en/) on your computer
+*   Install Grunt in command line via `npm install -g grunt-cli`
+*   Install [Sass](http://sass-lang.com/install)
 
 ## Installation
 1. Copy and paste both the **package.json** and **Gruntfile.js** into your project directory
-2. In command line navigate to your **project directory** and run npm install`
-3. Add `<script src="http://localhost:35729/livereload.js"></script>` to your base index.html to allow Livereload to work
+2. In command line navigate to your **project directory** and run `npm install`
+3. In your base index.html file, link up the files as per the **Files** section below
 4. Run `grunt watch`
-5. Start adding code to **app.scss**
+5. Code away via **app.scss**
 
 ### File structure
 
-To link up in your html
+Here's the base files you need. Livereload is optional but if you choose not to include you'll need to remove the entire `livereload` section of your Gruntfile.js.
 
-CSS File    => /assets/build/app.min.css
-JS File     => /assets/build/app.min.js
+CSS
+`<link rel="stylesheet" href="assets/build/app.min.css">`
 
-To work from
+JS
+`<script type="text/javascript" src="assets/build/app.min.js"></script>`
 
-SASS        => /assets/sass/
-JS          => /assets/js/app.js
+Livereload (optional)
 
-^ You can add more JS files to concatenate in your Gruntfile.
+`<script src="http://localhost:35729/livereload.js"></script>`
